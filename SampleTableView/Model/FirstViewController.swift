@@ -21,6 +21,7 @@ class FirstViewController: UIViewController , UITableViewDelegate, UITableViewDa
         firstTableView.delegate = self
 //        余計な線を消す
         firstTableView.tableFooterView = UIView()
+        setRefreshControl()
     }
 //    表示するセルの個数を返す関数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,6 +53,22 @@ class FirstViewController: UIViewController , UITableViewDelegate, UITableViewDa
         // secondViewControllerのpasseindexNumにFirstViewControllerのselectedIndexNum
         nextVC.passedIndexNum = selectedIndexNum
 
+    }
+    
+//    引っ張ってぎグルグルさせるUI
+    func setRefreshControl() {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(reloadTimeline(refreshControl:)), for: .valueChanged)
+        firstTableView.addSubview(refreshControl)
+    }
+    //    引っ張ってぎグルグルさせるUI
+    @objc func reloadTimeline(refreshControl: UIRefreshControl) {
+        refreshControl.beginRefreshing()
+        
+        // 更新が早すぎるので2秒遅延させる
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            refreshControl.endRefreshing()
+        }
     }
     
 }

@@ -19,7 +19,7 @@
 		F167DAFD23CAE442003998E1 /* SampleCollectionViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F167DAFB23CAE442003998E1 /* SampleCollectionViewCollectionViewCell.xib */; };
 		F167DB0123CAE5F5003998E1 /* manner_door_open_ashi.png in Resources */ = {isa = PBXBuildFile; fileRef = F167DAFE23CAE5F5003998E1 /* manner_door_open_ashi.png */; };
 		F167DB0223CAE5F5003998E1 /* kakedasu_takuhai1.png in Resources */ = {isa = PBXBuildFile; fileRef = F167DAFF23CAE5F5003998E1 /* kakedasu_takuhai1.png */; };
-		F167DB0323CAE5F5003998E1 /* nininsankyaku_men.png in Resources */ = {isa = PBXBuildFile; fileRef = F167DB0023CAE5F5003998E1 /* nininsankyaku_men.png */; };
+		F18AC20523CB5BCE004E9267 /* job_suugakusya_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F18AC20423CB5BCE004E9267 /* job_suugakusya_woman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		F167DAFB23CAE442003998E1 /* SampleCollectionViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		F167DAFE23CAE5F5003998E1 /* manner_door_open_ashi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manner_door_open_ashi.png; sourceTree = "<group>"; };
 		F167DAFF23CAE5F5003998E1 /* kakedasu_takuhai1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakedasu_takuhai1.png; sourceTree = "<group>"; };
-		F167DB0023CAE5F5003998E1 /* nininsankyaku_men.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nininsankyaku_men.png; sourceTree = "<group>"; };
+		F18AC20423CB5BCE004E9267 /* job_suugakusya_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_suugakusya_woman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			children = (
 				F167DAFF23CAE5F5003998E1 /* kakedasu_takuhai1.png */,
 				F167DAFE23CAE5F5003998E1 /* manner_door_open_ashi.png */,
-				F167DB0023CAE5F5003998E1 /* nininsankyaku_men.png */,
+				F18AC20423CB5BCE004E9267 /* job_suugakusya_woman.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -170,12 +170,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18AC20523CB5BCE004E9267 /* job_suugakusya_woman.png in Resources */,
 				F167DB0223CAE5F5003998E1 /* kakedasu_takuhai1.png in Resources */,
 				F167DAEB23CAC799003998E1 /* LaunchScreen.storyboard in Resources */,
 				F167DAE823CAC799003998E1 /* Assets.xcassets in Resources */,
 				F167DAE623CAC796003998E1 /* Main.storyboard in Resources */,
 				F167DAFD23CAE442003998E1 /* SampleCollectionViewCollectionViewCell.xib in Resources */,
-				F167DB0323CAE5F5003998E1 /* nininsankyaku_men.png in Resources */,
 				F167DB0123CAE5F5003998E1 /* manner_door_open_ashi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

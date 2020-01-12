@@ -10,9 +10,18 @@ import UIKit
 
 class SampleCollectionViewCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet var label : UILabel!
+    @IBOutlet var imageView : UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+         // cellの枠の太さ
+        
+               self.layer.borderWidth = 1.0
+               // cellの枠の色
+               self.layer.borderColor = UIColor.black.cgColor
+               // cellを丸くする
+               self.layer.cornerRadius = 8.0
     }
 
 }
